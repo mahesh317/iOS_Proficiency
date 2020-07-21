@@ -13,10 +13,10 @@ class FactsViewModel {
     var reloadView:Box<Bool> = Box(false)
     var error : Box<Error?> = Box(nil)
     var rows:[Rows] = []
-    private var collectionViewDatasource = FactsDatasource()
+    private var tableViewDatasource = FactsDatasource()
     
     func getDatasource() -> FactsDatasource {
-        return self.collectionViewDatasource
+        return self.tableViewDatasource
     }
     
     
@@ -43,7 +43,7 @@ class FactsViewModel {
             case .success(let facts):
                 self.title.value = facts.title
                 self.rows = facts.rows
-                self.collectionViewDatasource.updateRows(self.rows.map({ RowViewModel($0)}))
+                self.tableViewDatasource.updateRows(self.rows.map({ RowViewModel($0)}))
                 self.reloadView.value = true
             case .failure(let error): self.error.value = error
             }
@@ -51,6 +51,6 @@ class FactsViewModel {
     }
     
     func updateRowImage(_ image:UIImage?, row:Int) -> Bool{
-        return self.collectionViewDatasource.updateRowImage(image, forRow: row)
+        return self.tableViewDatasource.updateRowImage(image, forRow: row)
     }
 }

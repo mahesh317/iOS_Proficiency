@@ -71,14 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				CE28842124C6C32C009504D4 /* AppDelegate.swift */,
-				CE28842524C6C32C009504D4 /* ViewController.swift */,
-				CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */,
-				CE28843924C6DA93009504D4 /* FactsViewModel.swift */,
-				CE28844324C6DEE2009504D4 /* RowViewModel.swift */,
-				CE28844124C6DEA8009504D4 /* FactsDatasource.swift */,
-				CE28843724C6CAC9009504D4 /* Facts.swift */,
-				CE28843524C6CA75009504D4 /* ServiceManager.swift */,
-				CE28843B24C6DB11009504D4 /* ImageDownloader.swift */,
+				CE28844724C6E7A7009504D4 /* ViewController */,
+				CE28844924C6E7FD009504D4 /* ViewModel */,
+				CE28844B24C6E847009504D4 /* Model */,
+				CE28844C24C6E871009504D4 /* ServiceManager */,
 				CE28844524C6DF2D009504D4 /* Box.swift */,
 				CE28843F24C6DCBF009504D4 /* Extension.swift */,
 				CE28842A24C6C32D009504D4 /* Assets.xcassets */,
@@ -86,6 +82,58 @@
 				CE28842F24C6C32D009504D4 /* Info.plist */,
 			);
 			path = iOS_Proficiency;
+			sourceTree = "<group>";
+		};
+		CE28844724C6E7A7009504D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE28844824C6E7C8009504D4 /* Cell */,
+				CE28842524C6C32C009504D4 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE28844824C6E7C8009504D4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE28844924C6E7FD009504D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE28844A24C6E819009504D4 /* Datasource */,
+				CE28843924C6DA93009504D4 /* FactsViewModel.swift */,
+				CE28844324C6DEE2009504D4 /* RowViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE28844A24C6E819009504D4 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				CE28844124C6DEA8009504D4 /* FactsDatasource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		CE28844B24C6E847009504D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE28843724C6CAC9009504D4 /* Facts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE28844C24C6E871009504D4 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE28843524C6CA75009504D4 /* ServiceManager.swift */,
+				CE28843B24C6DB11009504D4 /* ImageDownloader.swift */,
+			);
+			path = ServiceManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

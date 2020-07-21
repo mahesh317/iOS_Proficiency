@@ -17,12 +17,6 @@ extension UIDevice{
     
 }
 
-extension UICollectionViewCell{
-    class var reuseIdentifier:String{
-        return "\(self)"
-    }
-}
-
 extension UITableViewCell{
     class var reuseIdentifier:String{
         return "\(self)"

@@ -80,7 +80,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         factViewModel.reloadView.bind { (success) in
             if success{
                 DispatchQueue.main.async {
-                    self?.refreshControl.endRefreshing()
+                    self.refreshControl.endRefreshing()
                     self.tableView.reloadData()
                 }
             }

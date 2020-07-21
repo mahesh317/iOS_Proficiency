@@ -17,6 +17,9 @@
 		CE28843C24C6DB11009504D4 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843B24C6DB11009504D4 /* ImageDownloader.swift */; };
 		CE28843E24C6DC25009504D4 /* FactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */; };
 		CE28844024C6DCBF009504D4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843F24C6DCBF009504D4 /* Extension.swift */; };
+		CE28844224C6DEA8009504D4 /* FactsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28844124C6DEA8009504D4 /* FactsDatasource.swift */; };
+		CE28844424C6DEE2009504D4 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28844324C6DEE2009504D4 /* RowViewModel.swift */; };
+		CE28844624C6DF2D009504D4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28844524C6DF2D009504D4 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		CE28843B24C6DB11009504D4 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsTableViewCell.swift; sourceTree = "<group>"; };
 		CE28843F24C6DCBF009504D4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CE28844124C6DEA8009504D4 /* FactsDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsDatasource.swift; sourceTree = "<group>"; };
+		CE28844324C6DEE2009504D4 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		CE28844524C6DF2D009504D4 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +74,12 @@
 				CE28842524C6C32C009504D4 /* ViewController.swift */,
 				CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */,
 				CE28843924C6DA93009504D4 /* FactsViewModel.swift */,
+				CE28844324C6DEE2009504D4 /* RowViewModel.swift */,
+				CE28844124C6DEA8009504D4 /* FactsDatasource.swift */,
 				CE28843724C6CAC9009504D4 /* Facts.swift */,
 				CE28843524C6CA75009504D4 /* ServiceManager.swift */,
 				CE28843B24C6DB11009504D4 /* ImageDownloader.swift */,
+				CE28844524C6DF2D009504D4 /* Box.swift */,
 				CE28843F24C6DCBF009504D4 /* Extension.swift */,
 				CE28842A24C6C32D009504D4 /* Assets.xcassets */,
 				CE28842C24C6C32D009504D4 /* LaunchScreen.storyboard */,
@@ -152,9 +161,12 @@
 				CE28842624C6C32C009504D4 /* ViewController.swift in Sources */,
 				CE28842224C6C32C009504D4 /* AppDelegate.swift in Sources */,
 				CE28843E24C6DC25009504D4 /* FactsTableViewCell.swift in Sources */,
+				CE28844424C6DEE2009504D4 /* RowViewModel.swift in Sources */,
 				CE28843A24C6DA93009504D4 /* FactsViewModel.swift in Sources */,
+				CE28844624C6DF2D009504D4 /* Box.swift in Sources */,
 				CE28843624C6CA75009504D4 /* ServiceManager.swift in Sources */,
 				CE28843C24C6DB11009504D4 /* ImageDownloader.swift in Sources */,
+				CE28844224C6DEA8009504D4 /* FactsDatasource.swift in Sources */,
 				CE28843824C6CAC9009504D4 /* Facts.swift in Sources */,
 				CE28844024C6DCBF009504D4 /* Extension.swift in Sources */,
 			);

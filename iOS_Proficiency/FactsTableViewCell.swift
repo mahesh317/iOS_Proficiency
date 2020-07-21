@@ -106,10 +106,10 @@ let padding:CGFloat = 8
         fatalError("init(coder:) has not been implemented")
     }
     
-    /*func configure(_ viewModel:RowViewModel){
+    func configure(_ viewModel:RowViewModel){
         factImage.image = viewModel.image
         factTitle.text = viewModel.title
         factDesc.text = viewModel.desc
-    }*/
+    }
     
 }

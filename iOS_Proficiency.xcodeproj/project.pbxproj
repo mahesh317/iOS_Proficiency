@@ -13,6 +13,10 @@
 		CE28842E24C6C32D009504D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE28842C24C6C32D009504D4 /* LaunchScreen.storyboard */; };
 		CE28843624C6CA75009504D4 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843524C6CA75009504D4 /* ServiceManager.swift */; };
 		CE28843824C6CAC9009504D4 /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843724C6CAC9009504D4 /* Facts.swift */; };
+		CE28843A24C6DA93009504D4 /* FactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843924C6DA93009504D4 /* FactsViewModel.swift */; };
+		CE28843C24C6DB11009504D4 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843B24C6DB11009504D4 /* ImageDownloader.swift */; };
+		CE28843E24C6DC25009504D4 /* FactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */; };
+		CE28844024C6DCBF009504D4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28843F24C6DCBF009504D4 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CE28842F24C6C32D009504D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE28843524C6CA75009504D4 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		CE28843724C6CAC9009504D4 /* Facts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+		CE28843924C6DA93009504D4 /* FactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewModel.swift; sourceTree = "<group>"; };
+		CE28843B24C6DB11009504D4 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsTableViewCell.swift; sourceTree = "<group>"; };
+		CE28843F24C6DCBF009504D4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				CE28842124C6C32C009504D4 /* AppDelegate.swift */,
 				CE28842524C6C32C009504D4 /* ViewController.swift */,
+				CE28843D24C6DC25009504D4 /* FactsTableViewCell.swift */,
+				CE28843924C6DA93009504D4 /* FactsViewModel.swift */,
 				CE28843724C6CAC9009504D4 /* Facts.swift */,
 				CE28843524C6CA75009504D4 /* ServiceManager.swift */,
+				CE28843B24C6DB11009504D4 /* ImageDownloader.swift */,
+				CE28843F24C6DCBF009504D4 /* Extension.swift */,
 				CE28842A24C6C32D009504D4 /* Assets.xcassets */,
 				CE28842C24C6C32D009504D4 /* LaunchScreen.storyboard */,
 				CE28842F24C6C32D009504D4 /* Info.plist */,
@@ -139,8 +151,12 @@
 			files = (
 				CE28842624C6C32C009504D4 /* ViewController.swift in Sources */,
 				CE28842224C6C32C009504D4 /* AppDelegate.swift in Sources */,
+				CE28843E24C6DC25009504D4 /* FactsTableViewCell.swift in Sources */,
+				CE28843A24C6DA93009504D4 /* FactsViewModel.swift in Sources */,
 				CE28843624C6CA75009504D4 /* ServiceManager.swift in Sources */,
+				CE28843C24C6DB11009504D4 /* ImageDownloader.swift in Sources */,
 				CE28843824C6CAC9009504D4 /* Facts.swift in Sources */,
+				CE28844024C6DCBF009504D4 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
